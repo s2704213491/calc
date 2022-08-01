@@ -1,1 +1,3 @@
 # calc
+This is a calculator made by html,css,jquery.if you want this u can clone it or copy the code.but it is difficult to copy code.it is in three file.
+if dont understand u must clone it....
