@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Calcualator.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="root">
+        <div id="head"><h1 id="title"> <strong>Calculator</strong></div>
+        <div id="calc">
+            <div id="display"><input type="text" name="" id="screen"></div>
+            <button onclick="btnclick(7)"id="sevenbutton">7</button>
+            <button onclick="btnclick(8)"id="eightbutton">8</button>
+            <button onclick="btnclick(9)"id="ninebutton">9</button>
+            <button onclick="btnclick('/')"id="divbutton">/</button>
+            <br>
+            <button onclick="btnclick(4)"id="fourbutton">4</button>
+            <button onclick="btnclick(5)"id="fivebutton">5</button>
+            <button onclick="btnclick(6)"id="sixbutton">6</button>
+            <button onclick="btnclick('*')"id="multiplebutton">*</button><br>
+            <button onclick="btnclick(1)"id="onebutton">1</button>
+            <button onclick="btnclick(2)"id="twobutton">2</button>
+            <button onclick="btnclick(3)"id="threebutton">3</button>
+            <button onclick="btnclick('-')"id="minusbutton">-</button><br>
+            <button onclick="btnclick(0)"id="zerobutton">0</button>
+            <button onclick="clearbutton()"id="clearbutton">C</button>
+            <button onclick="btnclick('.')"id="pointbutton">.</button>
+            <button onclick="btnclick('+')"id="plusbutton">+</button>
+            <div id="equalbuttonckdiv"><button onclick="equalbtn()"id="equalbutton"><strong>=</strong></button></div>
+            
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
